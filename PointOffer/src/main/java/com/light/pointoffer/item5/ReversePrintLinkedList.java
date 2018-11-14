@@ -1,6 +1,5 @@
 package com.light.pointoffer.item5;
 
-import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -11,9 +10,9 @@ public class ReversePrintLinkedList {
 	
 	
 	/**
-	 * 利用栈 先进后出 
+	 * 利用栈 先进后出
 	 * 时间复杂度O(2n)
-	 * @param list
+	 * @param head
 	 */
 	public static void reversePrintWithStack(Node<Integer> head){
 		

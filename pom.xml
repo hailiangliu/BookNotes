@@ -4,9 +4,24 @@
   <artifactId>booknotes</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+
   <modules>
   	<module>PointOffer</module>
+      <module>CodeFragment</module>
   </modules>
-  
+
+  <properties>
+    <cglib.version>2.2</cglib.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>${cglib.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   
 </project>

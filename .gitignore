@@ -1,6 +1,14 @@
 /.settings/
 .project
+.idea
 /PointOffer/.settings/
 /PointOffer/target/
 /PointOffer/.classpath
 /PointOffer/.project
+
+/CodeFragment/.settings/
+/CodeFragment/target/
+/CodeFragment/.classpath
+/CodeFragment/.project
+
+*.iml
