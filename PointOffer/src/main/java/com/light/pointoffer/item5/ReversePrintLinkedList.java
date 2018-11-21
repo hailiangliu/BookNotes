@@ -23,9 +23,9 @@ public class ReversePrintLinkedList {
 		while(temp!=null){
 			stack.push(temp.getData());
 			temp = temp.getNext();
-		};
-		
-		while(!stack.isEmpty()){
+		}
+
+        while(!stack.isEmpty()){
 			System.out.println(stack.pop());
 		}
 		

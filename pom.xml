@@ -8,18 +8,31 @@
   <modules>
   	<module>PointOffer</module>
       <module>CodeFragment</module>
+      <module>MyNetty</module>
   </modules>
 
   <properties>
     <cglib.version>2.2</cglib.version>
+    <netty.version>4.1.31.Final</netty.version>
+    <springframework.version>4.3.1.RELEASE</springframework.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${springframework.version}</version>
+      </dependency>
+      <dependency>
         <groupId>cglib</groupId>
         <artifactId>cglib</artifactId>
         <version>${cglib.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>${netty.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

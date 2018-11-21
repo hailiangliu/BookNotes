@@ -7,4 +7,6 @@ public class HelloConcrete {
         return "response: " + name;
     }
 
+    public static void main(String[] args) {
+    }
 }

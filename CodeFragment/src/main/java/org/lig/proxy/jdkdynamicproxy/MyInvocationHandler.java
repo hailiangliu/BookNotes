@@ -15,6 +15,6 @@ public class MyInvocationHandler implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("method : "+ method.getName() + " is invoked!");
 
-        return (Object) method.invoke(target, args);
+        return method.invoke(target, args);
     }
 }
