@@ -18,6 +18,9 @@ public class CaseLinkedHashMap {
         System.out.println( t.map.isTest( null ) );
         System.out.println(1 << 30);
         System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.toBinaryString( 32 ));
+        System.out.println(101&(101-1));
+        System.out.println( "Result:" + ('A' ^ (1)) );
     }
 
 }
