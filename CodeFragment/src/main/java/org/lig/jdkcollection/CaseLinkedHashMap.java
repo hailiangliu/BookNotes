@@ -1,4 +1,4 @@
-package org.lig.org.lig.jdkcollection;
+package org.lig.jdkcollection;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
