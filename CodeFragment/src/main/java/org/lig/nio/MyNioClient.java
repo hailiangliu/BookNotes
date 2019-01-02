@@ -1,10 +1,9 @@
-package com.lig.nio;
+package org.lig.nio;
 
-import com.lig.util.InputUtil;
+import org.lig.util.InputUtil;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 
 public class MyNioClient {

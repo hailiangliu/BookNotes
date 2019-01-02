@@ -1,4 +1,4 @@
-package com.lig.util;
+package org.lig.util;
 
 
 import java.io.BufferedReader;
