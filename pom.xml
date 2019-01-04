@@ -15,6 +15,7 @@
     <cglib.version>2.2</cglib.version>
     <netty.version>4.1.31.Final</netty.version>
     <springframework.version>4.3.1.RELEASE</springframework.version>
+    <guava.version>18.0</guava.version>
   </properties>
 
   <dependencyManagement>
@@ -33,6 +34,11 @@
         <groupId>io.netty</groupId>
         <artifactId>netty-all</artifactId>
         <version>${netty.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
