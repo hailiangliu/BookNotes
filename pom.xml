@@ -9,6 +9,7 @@
   	<module>PointOffer</module>
       <module>CodeFragment</module>
       <module>MyNetty</module>
+    <module>leetcode</module>
   </modules>
 
   <properties>
